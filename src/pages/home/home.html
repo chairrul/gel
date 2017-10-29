@@ -1,0 +1,17 @@
+ <div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/logo.JPG">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+
+<ion-grid class="gridawal">
+  <ion-row class="rowawal">
+    <ion-col col-5 class="colawal"(click)="loadFirst()">
+    <ion-icon ios="ios-book" md="md-book"></ion-icon>
+    </ion-col>
+    <ion-col col-5 class="colawal"(click)="loadSecond()">This column will take 6 columns take 12 columns</ion-col>
+  </ion-row>
+</ion-grid>
